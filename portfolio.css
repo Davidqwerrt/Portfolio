@@ -28,41 +28,19 @@
       .profile-img {
         height:200px;
        width: auto;
-       margin-left: 150px;
+ 
    
       }}
 
-      @media (max-width: 768px) {
-      .hfullstack {
-        margin-left:150px;
-   
-      }}
-       @media (max-width: 768px) {
-      .name {
-        margin-left:120px;
-   
-      }}
+  
       
        @media (max-width: 768px) {
       .description-full-stack {
         font-size: smaller;
-      margin-left: 40px;
+     
       }}
-          @media (max-width: 768px) {
-      .medicare-btn {
-       margin-left:130px;
-      
-      }}
-           @media (max-width: 768px) {
-      .my-prjct-head {
-       margin-left:140px;
-      
-      }}
-           @media (max-width: 768px) {
-      .techno {
-       margin-left:20px;
-      
-      }}
+         
+          
       .hidden{
         display: none;
        
@@ -72,24 +50,21 @@
        
        margin-top:-35px;
       }}
-        @media (max-width: 768px) {
-      .name {
-       
-      margin-left: 120px;
-      }}
+   
       .btn-connect:hover{
-     transform: scale(1.1)!important;
+     transform: scale(0.8)!important;
      transition: transform 0.1s ease;
     
       }
 #view-btn:hover{
-  transform: scale(1.1);
+  transform: scale(0.8);
   
   transition: transform 0.1s ease;
 }
 #home-page:hover{
    transform: scale(1.2);
    transition: transform 0.1s ease;
+  
 
 }
 #about-page:hover{
@@ -102,8 +77,53 @@
    transition: transform 0.1s ease;
 
 }
-    @media (max-width: 768px) {
-      .prof-me {
+     #insta:hover{
+      transform: scale(1.2)!important;
+      transition:transform 1s ease;
+     }
+       #fb:hover{
+      transform: scale(1.2)!important;
+      transition:transform 1s ease;
+     }
+       #x:hover{
+      transform: scale(1.2)!important;
+      transition:transform 1s ease;
+     }
+     .medicare-btn:hover{
+     transform: scale(0.9);
+     transition: transform 1s ease;
+     }
+     #goibibo:hover{
+      transform: scale(0.8);
+      transition: transform 1s ease;
+     }
+     #w3:hover{
+      transform: scale(0.8);
+      transition: transform 1s ease;
+     }
+     #amazon:hover{
+      transform: scale(0.8);
+      transition: transform 1s ease;
+     }
+      @media (max-width: 768px) {
+      #amazon{
        
-      margin-left: 20px;
+      width: 100px !important;
+      height: 50px !important;
       }}
+          @media (max-width: 768px) {
+      #goibibo{
+       
+      width: 100px !important;
+      height: 50px !important;
+      }}
+          @media (max-width: 768px) {
+      #w3{
+       
+      width: 100px !important;
+      height: 50px !important;
+      }}
+      .btn-sub:hover{
+    transform: scale(0.9);
+    transition: transform 1s ease;
+      }
